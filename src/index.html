@@ -3,9 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Monster High School</title>
 </head>
 <body>
-  
+  <section class="flex flex-center col" id="character">
+    <div>
+      <h1>Welcome to Monster High School</h1>
+      <p>Choose your character.</p>
+    </div>
+    <div class="flex row flex-center">
+      <div class="monster" id="howl">
+        <div id="howl-img"></div>
+        <div class="intro">
+          <h3>Howl Thunderpaws</h3>
+          <p>Howl excels in physical activities, demonstrating <span class="bold">agility</span> and <span class="bold">strength</span>.</p>
+        </div>
+      </div>
+      <div class="monster" id="luna">
+        <div id="luna-img"></div>
+        <div class="intro">
+          <h3>Luna Crescendo</h3>
+          <p>Luna possesses a <span class="bold">charming</span> and likable personality, making her adept at social interactions.</p>
+        </div>
+      </div>
+      <div class="monster" id="thorn">
+        <div id="thorn-img"></div>
+        <div class="intro">
+          <h3>Thorn Greenleaf</h3>
+          <p>Thorn has a deep understanding of <span id="bold">plants</span> and <span id="bold">wildlife</span>, excelling in nature-related studies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="game" class="hidden">
+    <div id="user">
+      <h3 id="user-name"></h3>
+      <ul>
+        <li>Strength: <span id="strength">0</span></li>
+        <li>Charm: <span id="charm">0</span></li>
+        <li>Intelligence: <span id="intelligence">0</span></li>
+      </ul>
+    </div>
+    <div id="computer">
+      <h3>Computer</h3>
+    </div>
+  </section>
 </body>
 </html>

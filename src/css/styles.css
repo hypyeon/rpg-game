@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 /*
-$primaryFont: ;
 $secondaryFont: ;
 $primaryColor: ;
 $secondaryColor: ;
 */
+body, section {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Schoolbell", cursive;
+  background-color: rgb(184, 227, 235);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,4 +50,75 @@ $secondaryColor: ;
 
 .absolute {
   position: absolute;
+}
+
+.hidden {
+  display: none;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+#character {
+  gap: 3rem;
+  padding: 0 2rem;
+}
+#character h1 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 3rem;
+}
+#character p {
+  text-align: center;
+}
+
+#howl-img {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/howl.png");
+}
+
+#luna-img {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/luna.png");
+}
+
+#thorn-img {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/thorn.png");
+}
+
+.monster {
+  min-width: 30vw;
+  min-height: 50vh;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.monster:hover {
+  background-color: azure;
+}
+
+.intro {
+  padding: 0 1.5rem;
+  text-align: center;
+}
+.intro p {
+  margin: 1rem 0;
+  color: rgb(92, 92, 92);
 }/*# sourceMappingURL=styles.css.map */

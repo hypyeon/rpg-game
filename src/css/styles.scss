@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+$primaryFont: 'Schoolbell', cursive;
+$titleFont:  'Walter Turncoat', cursive;
 /*
-$primaryFont: ;
 $secondaryFont: ;
 $primaryColor: ;
 $secondaryColor: ;
@@ -13,7 +17,18 @@ $secondaryColor: ;
         text-decoration: none;
     }
 }
-
+@mixin monsterImg {
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+body, section {
+    width: 100vw;
+    height: 100vh;
+    font-family: $primaryFont;
+    background-color: rgb(184, 227, 235);
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -40,4 +55,59 @@ $secondaryColor: ;
 }
 .absolute {
     position: absolute;
+}
+.hidden {
+    display: none;
+}
+.bold {
+    font-weight: 600;
+}
+#character {
+    gap: 3rem;
+    h1 {
+        font-family: $titleFont;
+        font-size: 3rem;
+    }
+    p {
+        text-align: center;
+    }
+    padding: 0 2rem;
+}
+#howl-img {
+    @include monsterImg();
+    background-image: url('../images/howl.png');
+}
+#luna-img {
+    @include monsterImg();
+    background-image: url('../images/luna.png');
+}
+#thorn-img {
+    @include monsterImg();
+    background-image: url('../images/thorn.png');
+}
+.monster {
+    min-width: 30vw;
+    min-height: 50vh;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    margin: 0 .5rem;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3rem;
+}
+.monster:hover {
+    background-color: azure;
+}
+.intro {
+    padding: 0 1.5rem;
+    text-align: center;
+    p {
+        margin: 1rem 0;
+        color: rgb(92, 92, 92);
+    }
 }
