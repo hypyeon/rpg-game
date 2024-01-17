@@ -1,22 +1,14 @@
-# Title
+# Monster High School (RPG Game)
 by [Hayeong Pyeon](https://www.hayeong.website)
-
-## Table of Contents
-1. [Technologies Used](#technologies-used)
-2. [Description](#description)
-3. [Setup Requirements](#setup-requirements)
-4. [Link](#link)
-5. [Known Bugs](#known-bugs)
-6. [License](#license)
 
 ## Technologies used
 - HTML5, SCSS, JavaScript
-- npm
-- Tests using Jest
+- npm, lint, Jest
 
 ## Description
-- This is ...
-- This is ...
+- This is an in-class practice for Composition course in Epicodus. 
+- There are 3 characters user can choose to play mini games to win scores. 
+- When scores reach the criteria the character graduates.
 
 ## Setup Requirements
 1. Clone this repository to your desktop and open it with a text editor.
@@ -27,11 +19,11 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 * To run tests with Jest, use `npm run test`.
 
 ## Link
-
+- To be updated when ready
 
 ## Known Bugs
-- Currently ...
-- Last updated: 
+- Created on Jan 17, 2024
+- Only first page is available currently
 
 ## License
-[MIT](/LICENSE.txt) Copyright © 2023 Hayeong Pyeon
+[MIT](/LICENSE.txt) Copyright © 2024 Hayeong Pyeon
