@@ -1,4 +1,4 @@
-# Monster High School (RPG Game)
+# Monster High School (RPG Game) 👾
 by [Hayeong Pyeon](https://www.hayeong.website)
 
 ## Technologies used
@@ -15,8 +15,6 @@ by [Hayeong Pyeon](https://www.hayeong.website)
 2. Install all packages with `npm install`.
 3. Build the project using webpack with `npm run build`.
 4. Start a development server with `npm run start`.
-* To lint JS files in the src folder, use `npm run lint`.
-* To run tests with Jest, use `npm run test`.
 
 ## Link
 - To be updated when ready
